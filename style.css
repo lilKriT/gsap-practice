@@ -16,6 +16,8 @@ section {
 
 h1 {
   text-align: center;
+  font-size: 3rem;
+  color: #333;
 }
 
 .box {
@@ -24,4 +26,35 @@ h1 {
   background-color: #0ed2f7;
   border-radius: 10px;
   position: absolute;
+}
+
+.stagger {
+  display: flex;
+  gap: 5px;
+  justify-content: center;
+  margin-top: 4rem;
+}
+
+.sphere {
+  height: 3rem;
+  width: 3rem;
+  background-color: #fff;
+  border-radius: 50%;
+  box-shadow: 10px 5px 5px rgb(0 0 0 / 0.2);
+}
+
+.matrix {
+  display: grid;
+  width: calc(5 * 3rem + 4 * 10px);
+  grid-template-rows: repeat(5, fit-content(100px));
+  grid-template-columns: repeat(5, fit-content(100px));
+  gap: 10px;
+  margin: 25px auto 0;
+}
+
+.matrix .square {
+  height: 3rem;
+  width: 3rem;
+  background-color: green;
+  border-radius: 5px;
 }
