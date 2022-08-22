@@ -21,6 +21,7 @@ h1 {
 .box {
   height: 3rem;
   width: 3rem;
-  background-color: red;
+  background-color: #0ed2f7;
   border-radius: 10px;
+  position: absolute;
 }
